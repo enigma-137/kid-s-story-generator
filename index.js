@@ -60,7 +60,7 @@ async function fetchBotReply(outline) {
 const fetchSynopsis = async (outline) => {
   const response = await openai.createCompletion({
     'model': 'text-davinci-003',
-    'prompt': `Generate an engaging, professional and marketable story book synopsis based on an outline
+    'prompt': `Generate an engaging, professional and marketable story based on an outline
     ###
     outline: A big-hearted young adventurer sets off on a magical journey to a school in the clouds, where he discovers the secrets of courage, friendship, and the power of imagination.
 
