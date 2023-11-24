@@ -229,8 +229,8 @@ button:hover {
     box-shadow: 1px 1px 5px 1px var(--medium-dark);
 }
 
-img.loading {
-    max-width: 80px;
+.loading {
+    /* max-width: 80px; */
     filter: none;
 }
 
