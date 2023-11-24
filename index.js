@@ -62,15 +62,22 @@ const fetchSynopsis = async (outline) => {
     'model': 'text-davinci-003',
     'prompt': `Generate an engaging, professional and marketable story based on an outline
     ###
-    outline: A big-hearted young adventurer sets off on a magical journey to a school in the clouds, where he discovers the secrets of courage, friendship, and the power of imagination.
-
-    synopsis: Join our fearless protagonist as he embarks on a whimsical adventure at Cloudville School of Wonders. In this enchanting tale, our young hero, filled with curiosity and kindness, learns the importance of bravery and working together with newfound friends.
+    outline: Once upon a time, in a small village nestled between rolling hills and sparkling streams, lived a big-hearted young adventurer named Oliver. He was known for his insatiable curiosity and a smile that could brighten even the gloomiest days.
     
-    As the magical school year unfolds, our protagonist faces challenges that test both heart and spirit. From mastering flying broomsticks to solving riddles in the enchanted library, every day brings a new and exciting lesson.
+    One sunny morning, Oliver discovered an old map hidden in the dusty attic of his home. The map led to a magical school high above the clouds Cloudville School of Wonders. Excitement bubbled within him as he embarked on a journey beyond the clouds, guided by the whispers of the wind. 
+    At Cloudville, Oliver found himself surrounded by flying broomsticks, talking animals, and friends who shared his love for exploration. The enchanted library held books that came to life, and the classrooms were filled with laughter and lessons that stretched the boundaries of imagination.
     
-    But when a mysterious mission is revealed, our young adventurer must use everything he's learned to save the day. With the help of trusty friends and the magic within, our hero discovers that the real triumph lies not just in completing the mission but in the journey of self-discovery.
+    As the magical school year unfolded, Oliver faced challenges that tested his courage and kindness. From befriending mischievous sprites to mastering the art of flying on broomsticks, each day brought a new and exhilarating adventure.
     
-    Get ready for a spellbinding story that sparks the imagination and teaches valuable lessons about courage, teamwork, and the extraordinary magic that lies within each of us!
+    One day, a mysterious mission was revealed to the students. A rare creature, the Moonlight Phoenix, had lost its way, and Cloudville needed a hero to guide it back. Oliver, drawing on the lessons of bravery and teamwork, volunteered for the quest.
+    
+    With his trusty friends by his side, Oliver embarked on a journey through floating islands and sparkling rainbows. Along the way, they encountered tricky riddles in the enchanted library and heartwarming creatures that offered guidance.
+    
+    In the end, it wasn't just about completing the mission. Oliver discovered that the true magic lay in the friendships he made, the challenges he overcame, and the courage that blossomed within his heart.
+    
+    As the Moonlight Phoenix soared back to its celestial home, Cloudville celebrated not only the success of the mission but also the triumph of self-discovery. Oliver, with a heart full of gratitude and a mind filled with magical memories, realized that the extraordinary magic he sought was within him all along.
+    
+    And so, the story of Oliver's whimsical adventure became a tale shared by generations, teaching children everywhere about the boundless magic that lies within each of us.
     
     outline: ${outline}
     synopsis: 
