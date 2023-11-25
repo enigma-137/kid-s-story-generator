@@ -244,6 +244,7 @@ button:hover {
     margin: 1em auto;
     color: var(--dark);
     padding: 1em;
+    background-color: aliceblue;
 }
 
 .output-img-container>img {
